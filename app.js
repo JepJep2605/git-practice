@@ -2,36 +2,28 @@ console.log('Hello, World!');
 let name = "JEFFREY RAGIL ";
 console.log('My name is' + name);
 
-// Variable
-console.log("Variables");
-let name_first = "JUSTINE ";
+// Variables
+let num1 = 10;
+let num2 = 20;
 
-let island = 7641;
-console.log(island);
+// Boolean value
+let isTrue = true;
+let isFalse = false;
 
-// Numbers
-let a = 25;
-let b = 18;
-let sum = a + b;
-console.log(sum);
+// Comparison operators
+let isEqual = (num1 === num2);       // false, because 10 is not equal to 20
+let isNotEqual = (num1 !== num2);    // true, because 10 is not equal to 20
+let isGreater = (num1 > num2);       // false, because 10 is not greater than 20
+let isLess = (num1 < num2);          // true, because 10 is less than 20
 
-//Boolean
-let isAge = Boolean('25');
-let isNum = Boolean('');
-console.log(isAge);
-console.log(isNum);
+// Logical operation using Booleans
+let result = isTrue && isNotEqual;   // true, because both are true
+let result2 = isTrue || isFalse;     // true, because one of them is true
 
-//Comparison operator
-let w = 39;
-let u = 20;
-
-//Use comparison operator and store the reuslts in varaiables 
-let isWGreaterThanU = w > u;
-let isWLessThanU = w > u;
-let isWEqualToU = w === u;
-let isWNotEqualtoU = w !== u;
-
-console.log("Is W greater than U?");
-console.log("Is W less than U?");
-console.log("Is W equal to U?");
-console.log("Is W is not equal to U?");
+// Output the results
+console.log(isEqual);        // false
+console.log(isNotEqual);     // true
+console.log(isGreater);      // false
+console.log(isLess);         // true
+console.log(result);         // true
+console.log(result2);        // true
